@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Jacquarda+Bastarda+9&display=swap');
+@media only screen and (max-width: 700px) {
+  body {
+    margin: 20px;
+    padding: 0;
+    background-color: #F5F5DC;
+  }
+  nav ul {
+    flex-direction: column;
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  body {
+    margin: 20px;
+    padding: 0;
+    background-color: #F5F5DC;
+  }
+  
+}
+
+@media only screen and (min-width: 1200px) {
+  body {
+    margin: 20px;
+    padding: 0;
+    background-color: #F5F5DC;
+  }
+}
+
+h1 {
+  color: #FFA500;
+  text-align: center;
+  font-size: 30px;
+  text-decoration : underline  overline dotted;
+}
+
+h2, h3 {
+  padding-left: 15px;
+}
+
+a:hover {
+  color: #808080;
+  text-decoration: none;
+}
+
+header, footer {
+  background-color: #E3B981;
+  color: #000000;
+  text-align: center;
+}
+
+header {
+  padding: 10px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li {
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  color: inherit;
+  text-decoration: none;
+}
+
+section{
+  overflow: auto;
+}
+
+.gate {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+} 
+
+.nourriture{
+  float: left;
+  margin-right: 100px;
+  margin-bottom: 20px;
+}
+
+#photo1 {
+	filter: sepia(100%);
+  width:200px;
+  height:200px;
+}
+	
+#photo2 {
+	filter:grayscale(100%);
+  width:200px;
+  height:200px;
+}
+	
+#photo3 {
+	filter:brightness(200%);
+  width:200px;
+  height:200px;
+}
+	
+#photo4 {
+	filter: blur(5px);
+  width:200px;
+  height:200px;
+}
+	
+#photo5 {
+	filter: contrast(200%);
+  width:200px;
+  height:200px;
+}
+
+.style1{
+  font-family: "Edu AU VIC WA NT Dots", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.style2{
+  font-family: "Jacquarda Bastarda 9", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.style3{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.animal {
+  width: 50%;
+  float: left;
+  height: auto;
+  margin-right: 100px;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+#un {
+order: 1;
+}
+
+#deux{
+  order: 3;
+}
+
+#trois{
+  order: 5;
+}
+
+#quatre{
+  order: 6;
+}
+
+#cinq{
+  order: 2;
+}
+
+#six{
+  order: 4;
+}
+
+.imageslivres{
+  width:200px;
+  height:auto;
+}
+
+aside {
+  width: 40%;
+  float: right;
+  font-style: italic;
+  color: #FFD480;
+}
+
+footer {
+  bottom: 0;
+  left: 0;
+  position: static;
+  padding: 20px;
+  height: auto;
+}
